@@ -52,3 +52,11 @@ The LAWD_WS project aims to create a versatile drone capable of precision landin
 3. **Source the Workspace:**
    ```bash
      source install/setup.bash
+
+## Usage
+
+### Launching the Simulation
+
+To launch the drone simulation, use the following command:
+   ```bash
+     ros2 launch lawd_description launch_sim.launch.py
