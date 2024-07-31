@@ -60,3 +60,7 @@ The LAWD_WS project aims to create a versatile drone capable of precision landin
 To launch the drone simulation, use the following command:
    ```bash
      ros2 launch lawd_description launch_sim.launch.py
+   ```
+### Controlling the Drone
+
+The drone's legs can be controlled using the forward command controller. Send commands to the controller using ROS 2 topics, services, or actions, depending on the implementation.
