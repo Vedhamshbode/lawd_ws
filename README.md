@@ -36,3 +36,11 @@ The LAWD_WS project aims to create a versatile drone capable of precision landin
   ```bash
   sudo apt update
   sudo apt install <list-of-packages>
+
+### Setup
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/Vedhamshbode/LAWD_WS.git
+   cd LAWD_WS
