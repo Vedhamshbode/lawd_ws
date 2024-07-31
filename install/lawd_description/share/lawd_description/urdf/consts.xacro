@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+
+<robot name="consts" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <!-- joint limits -->
+    <xacro:property name="left_first_link_low" value="-1.570796"/>
+    <xacro:property name="left_first_link_up"  value="1.570796"/>
+    <xacro:property name="right_first_link_low" value="-1.570796"/>
+    <xacro:property name="right_first_link_up"  value="1.570796"/>
+    <xacro:property name="left_sec_link_low" value="-1.745329"/>
+    <xacro:property name="left_sec_link_up"  value="0.51"/>
+    <xacro:property name="right_sec_link_low" value="-0.51"/>
+    <xacro:property name="right_sec_link_up"  value="1.745329"/>
+
+    <xacro:property name="velocity"       value="1"/>
+    <xacro:property name="effort"         value="10"/>
+
+    <!-- joint dynamics -->
+    <xacro:property name="use_dynamics" value="true"/>
+    <xacro:macro name="ext_first_joint_dynamics">
+        <dynamics damping="0.01" friction="10000"/>
+    </xacro:macro>
+    <xacro:macro name="first_sec_joint_dynamics">
+        <dynamics damping="0.01" friction="10000"/>
+    </xacro:macro>
+
+    <!-- configure inertia -->
+    <!-- <xacro:property name="body_mass" value="3"/>
+    <xacro:property name="body_inertia_x_len" value="0.28"/>
+    <xacro:property name="body_inertia_y_len" value="0.172"/>
+    <xacro:property name="body_inertia_z_len" value="0.04"/> -->
+
+    <xacro:property name="ext_mass" value="0.06193296037863335"/>
+    <xacro:property name="ext_inertia_x_len" value="4.7e-05"/>
+    <xacro:property name="ext_inertia_y_len" value="1.9e-05"/>
+    <xacro:property name="ext_inertia_z_len" value="4.7e-05"/>
+
+    <xacro:property name="right_first_mass" value="0.07090675877539286"/>
+    <xacro:property name="right_first_inertia_x_len" value="5.2e-05"/>
+    <xacro:property name="right_first_inertia_y_len" value="6.8e-05"/>
+    <xacro:property name="right_first_inertia_z_len" value="4.7e-05"/>
+
+    <xacro:property name="left_first_mass" value="0.07092250685852575"/>
+    <xacro:property name="left_first_inertia_x_len" value="6.8e-05"/>
+    <xacro:property name="left_first_inertia_y_len" value="5.2e-05"/>
+    <xacro:property name="left_first_inertia_z_len" value="4.7e-05"/>
+
+    <xacro:property name="sec_mass" value="0.2"/>
+    <xacro:property name="sec_inertia_x_len" value="0.000185"/>
+    <xacro:property name="sec_inertia_y_len" value="0.000185"/>
+    <xacro:property name="sec_inertia_z_len" value="7.5e-05"/>
+
+    <!-- feet -->
+    <xacro:property name="foot_mass" value="0.001"/>
+    <xacro:property name="foot_radius" value="0.016"/>
+    
+
+
+</robot>

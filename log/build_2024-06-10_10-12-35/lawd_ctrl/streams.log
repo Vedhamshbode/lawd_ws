@@ -1,0 +1,20 @@
+[0.031s] Invoking command in '/home/vedh/workspaces/lawd_ws/build/lawd_ctrl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vedh/control_ws/install/rqt_joint_trajectory_controller:/home/vedh/control_ws/install/rqt_controller_manager:/home/vedh/control_ws/install/ros2controlcli:/home/vedh/control_ws/install/ros2_controllers_test_nodes:/home/vedh/workspaces/demo_lawd_ws/install/demo_lawd_description:/opt/ros/humble /usr/bin/cmake --build /home/vedh/workspaces/lawd_ws/build/lawd_ctrl -- -j16 -l16
+[0.095s] Invoked command in '/home/vedh/workspaces/lawd_ws/build/lawd_ctrl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vedh/control_ws/install/rqt_joint_trajectory_controller:/home/vedh/control_ws/install/rqt_controller_manager:/home/vedh/control_ws/install/ros2controlcli:/home/vedh/control_ws/install/ros2_controllers_test_nodes:/home/vedh/workspaces/demo_lawd_ws/install/demo_lawd_description:/opt/ros/humble /usr/bin/cmake --build /home/vedh/workspaces/lawd_ws/build/lawd_ctrl -- -j16 -l16
+[0.155s] Invoking command in '/home/vedh/workspaces/lawd_ws/build/lawd_ctrl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vedh/control_ws/install/rqt_joint_trajectory_controller:/home/vedh/control_ws/install/rqt_controller_manager:/home/vedh/control_ws/install/ros2controlcli:/home/vedh/control_ws/install/ros2_controllers_test_nodes:/home/vedh/workspaces/demo_lawd_ws/install/demo_lawd_description:/opt/ros/humble /usr/bin/cmake --install /home/vedh/workspaces/lawd_ws/build/lawd_ctrl
+[0.165s] -- Install configuration: ""
+[0.166s] -- Up-to-date: /home/vedh/workspaces/lawd_ws/install/lawd_ctrl/share/ament_index/resource_index/package_run_dependencies/lawd_ctrl
+[0.166s] -- Up-to-date: /home/vedh/workspaces/lawd_ws/install/lawd_ctrl/share/ament_index/resource_index/parent_prefix_path/lawd_ctrl
+[0.166s] -- Up-to-date: /home/vedh/workspaces/lawd_ws/install/lawd_ctrl/share/lawd_ctrl/environment/ament_prefix_path.sh
+[0.166s] -- Up-to-date: /home/vedh/workspaces/lawd_ws/install/lawd_ctrl/share/lawd_ctrl/environment/ament_prefix_path.dsv
+[0.166s] -- Up-to-date: /home/vedh/workspaces/lawd_ws/install/lawd_ctrl/share/lawd_ctrl/environment/path.sh
+[0.167s] -- Up-to-date: /home/vedh/workspaces/lawd_ws/install/lawd_ctrl/share/lawd_ctrl/environment/path.dsv
+[0.167s] -- Up-to-date: /home/vedh/workspaces/lawd_ws/install/lawd_ctrl/share/lawd_ctrl/local_setup.bash
+[0.167s] -- Up-to-date: /home/vedh/workspaces/lawd_ws/install/lawd_ctrl/share/lawd_ctrl/local_setup.sh
+[0.167s] -- Up-to-date: /home/vedh/workspaces/lawd_ws/install/lawd_ctrl/share/lawd_ctrl/local_setup.zsh
+[0.167s] -- Up-to-date: /home/vedh/workspaces/lawd_ws/install/lawd_ctrl/share/lawd_ctrl/local_setup.dsv
+[0.167s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_ctrl/share/lawd_ctrl/package.dsv
+[0.167s] -- Up-to-date: /home/vedh/workspaces/lawd_ws/install/lawd_ctrl/share/ament_index/resource_index/packages/lawd_ctrl
+[0.167s] -- Up-to-date: /home/vedh/workspaces/lawd_ws/install/lawd_ctrl/share/lawd_ctrl/cmake/lawd_ctrlConfig.cmake
+[0.167s] -- Up-to-date: /home/vedh/workspaces/lawd_ws/install/lawd_ctrl/share/lawd_ctrl/cmake/lawd_ctrlConfig-version.cmake
+[0.167s] -- Up-to-date: /home/vedh/workspaces/lawd_ws/install/lawd_ctrl/share/lawd_ctrl/package.xml
+[0.171s] Invoked command in '/home/vedh/workspaces/lawd_ws/build/lawd_ctrl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vedh/control_ws/install/rqt_joint_trajectory_controller:/home/vedh/control_ws/install/rqt_controller_manager:/home/vedh/control_ws/install/ros2controlcli:/home/vedh/control_ws/install/ros2_controllers_test_nodes:/home/vedh/workspaces/demo_lawd_ws/install/demo_lawd_description:/opt/ros/humble /usr/bin/cmake --install /home/vedh/workspaces/lawd_ws/build/lawd_ctrl

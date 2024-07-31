@@ -1,0 +1,8 @@
+{
+  "package_name": "lawd_msgs",
+  "non_idl_tuples": [
+    "/home/vedh/workspaces/lawd_ws/src/lawd_msgs:msg/JoyCtrlCmds.msg",
+    "/home/vedh/workspaces/lawd_ws/src/lawd_msgs:msg/Limits.msg",
+    "/home/vedh/workspaces/lawd_ws/src/lawd_msgs:msg/Geometry.msg"
+  ]
+}

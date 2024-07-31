@@ -1,0 +1,120 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100
+    # use_sim_time: true
+
+    # velocity_controller:
+    #   type: velocity_controllers/JointGroupVelocityController
+
+    joint_trajectory_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+    joint_broad:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    forward_command_controller:
+      type: forward_command_controller/ForwardCommandController
+
+# velocity_controller:
+#   ros__parameters:
+#     joints:
+#       - wing_frontleftprop
+#       - wing_backleftprop
+#       - wing_frontrightprop
+#       - wing_backrightprop
+
+forward_command_controller:
+  ros__parameters:
+    joints:
+      - ext_frontleftfirst
+      - ext_backleftfirst
+      - ext_frontrightfirst
+      - ext_backrightfirst
+      - first_frontleftsec
+      - first_backleftsec
+      - first_frontrightsec
+      - first_backrightsec
+      - base_frontleftwing
+      - base_backleftwing
+      - base_frontrightwing
+      - base_backrightwing
+
+    interface_name: position
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+      - effort
+
+    # gains:
+    #     ext_frontleftfirst: {p: 100.0, i: 0.1, d: 10.0}
+    #     ext_backleftfirst: {p: 100.0, i: 0.1, d: 10.0}
+    #     ext_frontrightfirst: {p: 100.0, i: 0.1, d: 10.0}
+    #     ext_backrightfirst: {p: 100.0, i: 0.1, d: 10.0}
+    #     first_frontleftsec: {p: 100.0, i: 0.1, d: 10.0}
+    #     first_backleftsec: {p: 100.0, i: 0.1, d: 10.0}
+    #     first_frontrightsec: {p: 100.0, i: 0.1, d: 10.0}
+    #     first_backrightsec: {p: 100.0, i: 0.1, d: 10.0}
+    #     base_frontleftwing: {p: 100.0, i: 0.1, d: 10.0}
+    #     base_backleftwing: {p: 100.0, i: 0.1, d: 10.0}
+    #     base_frontrightwing: {p: 100.0, i: 0.1, d: 10.0}
+    #     base_backrightwing: {p: 100.0, i: 0.1, d: 10.0}
+
+
+
+
+    # constraints:
+    #   goal_time: 0.5
+    #   stopped_velocity_tolerance: 0.01
+    #   ext_frontleftfirst:
+    #     trajectory: 0.1
+    #     goal: 0.1
+
+    #   ext_backleftfirst:
+    #     trajectory: 0.1
+    #     goal: 0.1
+
+    #   ext_frontrightfirst:
+    #     trajectory: 0.1
+    #     goal: 0.1
+
+    #   ext_backrightfirst:
+    #     trajectory: 0.1
+    #     goal: 0.1
+
+    #   first_frontleftsec:
+    #     trajectory: 0.1
+    #     goal: 0.1
+
+    #   first_backleftsec:
+    #     trajectory: 0.1
+    #     goal: 0.1
+
+    #   first_frontrightsec:
+    #     trajectory: 0.1
+    #     goal: 0.1
+
+    #   first_backrightsec:
+    #     trajectory: 0.1
+    #     goal: 0.1
+
+    #   base_frontleftwing:
+    #     trajectory: 0.1
+    #     goal: 0.1
+
+    #   base_backleftwing:
+    #     trajectory: 0.1
+    #     goal: 0.1
+
+    #   base_frontrightwing:
+    #     trajectory: 0.1
+    #     goal: 0.1
+
+    #   base_backrightwing:
+    #     trajectory: 0.1
+    #     goal: 0.1
+
+    # state_publish_rate: 25.0
+    # action_monitor_rate: 10.0
+    # allow_partial_joints_goal: true

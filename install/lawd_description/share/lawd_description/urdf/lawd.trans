@@ -1,0 +1,180 @@
+<?xml version="1.0" ?>
+<robot name="lawd" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+<transmission name="ext_frontleftfirst_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="ext_frontleftfirst">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="ext_frontleftfirst_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="ext_backleftfirst_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="ext_backleftfirst">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="ext_backleftfirst_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="ext_backrightfirst_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="ext_backrightfirst">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="ext_backrightfirst_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="ext_frontrightfirst_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="ext_frontrightfirst">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="ext_frontrightfirst_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="first_frontleftsec_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="first_frontleftsec">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="first_frontleftsec_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="first_backleftsec_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="first_backleftsec">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="first_backleftsec_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="first_frontrightsec_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="first_frontrightsec">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="first_frontrightsec_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="first_backrightsec_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="first_backrightsec">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="first_backrightsec_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="base_frontleftwing_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="base_frontleftwing">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="base_frontleftwing_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="base_frontrightwing_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="base_frontrightwing">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="base_frontrightwing_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="base_backleftwing_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="base_backleftwing">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="base_backleftwing_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="base_backrightwing_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="base_backrightwing">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="base_backrightwing_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="wing_backleftprop_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="wing_backleftprop">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="wing_backleftprop_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="wing_backrightprop_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="wing_backrightprop">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="wing_backrightprop_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="wing_frontrightprop_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="wing_frontrightprop">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="wing_frontrightprop_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="wing_frontleftprop_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="wing_frontleftprop">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="wing_frontleftprop_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+</robot>

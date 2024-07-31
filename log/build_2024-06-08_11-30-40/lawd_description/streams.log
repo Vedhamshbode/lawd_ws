@@ -1,0 +1,108 @@
+[0.023s] Invoking command in '/home/vedh/workspaces/lawd_ws/build/lawd_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vedh/control_ws/install/rqt_joint_trajectory_controller:/home/vedh/control_ws/install/rqt_controller_manager:/home/vedh/control_ws/install/ros2controlcli:/home/vedh/control_ws/install/ros2_controllers_test_nodes:/home/vedh/workspaces/demo_lawd_ws/install/demo_lawd_description:/opt/ros/humble /usr/bin/cmake /home/vedh/workspaces/lawd_ws/src/lawd_description -DCMAKE_INSTALL_PREFIX=/home/vedh/workspaces/lawd_ws/install/lawd_description
+[0.070s] -- The C compiler identification is GNU 11.4.0
+[0.110s] -- The CXX compiler identification is GNU 11.4.0
+[0.118s] -- Detecting C compiler ABI info
+[0.180s] -- Detecting C compiler ABI info - done
+[0.184s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.185s] -- Detecting C compile features
+[0.185s] -- Detecting C compile features - done
+[0.186s] -- Detecting CXX compiler ABI info
+[0.258s] -- Detecting CXX compiler ABI info - done
+[0.268s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.268s] -- Detecting CXX compile features
+[0.268s] -- Detecting CXX compile features - done
+[0.275s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.541s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.639s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.695s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.703s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.713s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.728s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.749s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.819s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.825s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.929s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.955s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.995s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.009s] -- Looking for pthread.h
+[1.071s] -- Looking for pthread.h - found
+[1.072s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.135s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.135s] -- Found Threads: TRUE  
+[1.246s] -- Found rclpy: 3.3.12 (/opt/ros/humble/share/rclpy/cmake)
+[1.249s] -- Found trajectory_msgs: 4.2.3 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[1.332s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.407s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.408s] -- Added test 'lint_cmake' to check CMake code style
+[1.409s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.411s] -- Added test 'xmllint' to check XML markup files
+[1.412s] -- Configuring done
+[1.415s] -- Generating done
+[1.416s] -- Build files have been written to: /home/vedh/workspaces/lawd_ws/build/lawd_description
+[1.433s] Invoked command in '/home/vedh/workspaces/lawd_ws/build/lawd_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vedh/control_ws/install/rqt_joint_trajectory_controller:/home/vedh/control_ws/install/rqt_controller_manager:/home/vedh/control_ws/install/ros2controlcli:/home/vedh/control_ws/install/ros2_controllers_test_nodes:/home/vedh/workspaces/demo_lawd_ws/install/demo_lawd_description:/opt/ros/humble /usr/bin/cmake /home/vedh/workspaces/lawd_ws/src/lawd_description -DCMAKE_INSTALL_PREFIX=/home/vedh/workspaces/lawd_ws/install/lawd_description
+[1.433s] Invoking command in '/home/vedh/workspaces/lawd_ws/build/lawd_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vedh/control_ws/install/rqt_joint_trajectory_controller:/home/vedh/control_ws/install/rqt_controller_manager:/home/vedh/control_ws/install/ros2controlcli:/home/vedh/control_ws/install/ros2_controllers_test_nodes:/home/vedh/workspaces/demo_lawd_ws/install/demo_lawd_description:/opt/ros/humble /usr/bin/cmake --build /home/vedh/workspaces/lawd_ws/build/lawd_description -- -j16 -l16
+[1.473s] Invoked command in '/home/vedh/workspaces/lawd_ws/build/lawd_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vedh/control_ws/install/rqt_joint_trajectory_controller:/home/vedh/control_ws/install/rqt_controller_manager:/home/vedh/control_ws/install/ros2controlcli:/home/vedh/control_ws/install/ros2_controllers_test_nodes:/home/vedh/workspaces/demo_lawd_ws/install/demo_lawd_description:/opt/ros/humble /usr/bin/cmake --build /home/vedh/workspaces/lawd_ws/build/lawd_description -- -j16 -l16
+[1.506s] Invoking command in '/home/vedh/workspaces/lawd_ws/build/lawd_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vedh/control_ws/install/rqt_joint_trajectory_controller:/home/vedh/control_ws/install/rqt_controller_manager:/home/vedh/control_ws/install/ros2controlcli:/home/vedh/control_ws/install/ros2_controllers_test_nodes:/home/vedh/workspaces/demo_lawd_ws/install/demo_lawd_description:/opt/ros/humble /usr/bin/cmake --install /home/vedh/workspaces/lawd_ws/build/lawd_description
+[1.513s] -- Install configuration: ""
+[1.513s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/config
+[1.514s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/config/my_controllers.yaml
+[1.514s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/config/gazebo_params.yaml
+[1.514s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/config/display.rviz
+[1.514s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/config/gaz_ros2_ctl_use_sim.yaml
+[1.514s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/urdf
+[1.514s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/urdf/consts.xacro
+[1.514s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/urdf/lawd.xacro
+[1.514s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/urdf/lawd_ros2_control.xacro
+[1.514s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/urdf/lawd.gazebo
+[1.514s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/urdf/lawd.trans
+[1.514s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/urdf/materials.xacro
+[1.514s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/urdf/physics.xacro
+[1.514s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/urdf/lawd.urdf
+[1.514s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/launch
+[1.514s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/launch/rsp.launch.py
+[1.514s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/launch/display.launch.py
+[1.514s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/launch/gazebo.launch.py
+[1.514s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/launch/launch_sim.launch.py
+[1.514s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/worlds
+[1.514s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/include
+[1.514s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/include/lawd_description
+[1.514s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/meshes
+[1.514s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/meshes/back_right_wing_1.stl
+[1.515s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/meshes/back_right_ext_1.stl
+[1.515s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/meshes/front_left_prop_1.stl
+[1.515s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/meshes/back_left_sec_1.stl
+[1.515s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/meshes/base_link.stl
+[1.515s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/meshes/front_left_first_1.stl
+[1.516s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/meshes/back_right_first_1.stl
+[1.516s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/meshes/front_left_wing_1.stl
+[1.516s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/meshes/front_right_prop_1.stl
+[1.516s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/meshes/back_left_wing_1.stl
+[1.516s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/meshes/front_left_sec_1.stl
+[1.517s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/meshes/front_right_wing_1.stl
+[1.517s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/meshes/back_right_sec_1.stl
+[1.517s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/meshes/back_left_ext_1.stl
+[1.517s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/meshes/front_left_ext_1.stl
+[1.517s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/meshes/front_right_ext_1.stl
+[1.518s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/meshes/back_right_prop_1.stl
+[1.518s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/meshes/back_left_prop_1.stl
+[1.518s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/meshes/front_right_sec_1.stl
+[1.518s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/meshes/back_left_first_1.stl
+[1.518s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/meshes/front_right_first_1.stl
+[1.518s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/src
+[1.518s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/src/joint_trajectory_publisher.py
+[1.519s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/ament_index/resource_index/package_run_dependencies/lawd_description
+[1.519s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/ament_index/resource_index/parent_prefix_path/lawd_description
+[1.519s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/environment/ament_prefix_path.sh
+[1.519s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/environment/ament_prefix_path.dsv
+[1.519s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/environment/path.sh
+[1.519s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/environment/path.dsv
+[1.519s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/local_setup.bash
+[1.519s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/local_setup.sh
+[1.519s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/local_setup.zsh
+[1.519s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/local_setup.dsv
+[1.519s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/package.dsv
+[1.519s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/ament_index/resource_index/packages/lawd_description
+[1.519s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/cmake/lawd_descriptionConfig.cmake
+[1.519s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/cmake/lawd_descriptionConfig-version.cmake
+[1.519s] -- Installing: /home/vedh/workspaces/lawd_ws/install/lawd_description/share/lawd_description/package.xml
+[1.521s] Invoked command in '/home/vedh/workspaces/lawd_ws/build/lawd_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vedh/control_ws/install/rqt_joint_trajectory_controller:/home/vedh/control_ws/install/rqt_controller_manager:/home/vedh/control_ws/install/ros2controlcli:/home/vedh/control_ws/install/ros2_controllers_test_nodes:/home/vedh/workspaces/demo_lawd_ws/install/demo_lawd_description:/opt/ros/humble /usr/bin/cmake --install /home/vedh/workspaces/lawd_ws/build/lawd_description
