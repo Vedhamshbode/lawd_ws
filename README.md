@@ -43,7 +43,7 @@ The LAWD_WS project aims to create a versatile drone capable of precision landin
 
    ```bash
    git clone https://github.com/Vedhamshbode/LAWD_WS.git
-   cd LAWD_WS
+   cd lawd_ws
    
 2. **Build the Workspace:**
    ```bash
