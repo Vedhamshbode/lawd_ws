@@ -35,7 +35,7 @@ The LAWD_WS project aims to create a versatile drone capable of precision landin
 
   ```bash
   sudo apt update
-  sudo apt install <list-of-packages>
+  sudo apt upgrade
 
 ### Setup
 
